@@ -19,11 +19,11 @@ namespace ConsoleApplication2
             do
             {
                 Console.WriteLine("Geometry Calculator\n");
-                Console.WriteLine("\t1. Calculate the area of a Circle");
-                Console.WriteLine("\t2. Calculate the area of a Regtangle");
-                Console.WriteLine("\t3. Calculate the area of a Triangle");
-                Console.WriteLine("\t4. Calculate the area of a Quit");
-                Console.Write("\tEnter your choice:");
+                Console.WriteLine("\t1. Computing the area of a geometric simple circle");
+                Console.WriteLine("\t2. Computing the area of a geometric simple Regtangle");
+                Console.WriteLine("\t3. Computing the area of a geometric simple Triangle");
+                Console.WriteLine("\t4. Computing the area of a geometric simple Quit");
+                Console.Write("\tEnter your choice, dude:");
                 string receivedValue = Console.ReadLine();
                 while (!Int32.TryParse(receivedValue, out yourChoice) || yourChoice < 1 || yourChoice > 4)
                 {
